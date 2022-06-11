@@ -8,10 +8,9 @@ Gem::Specification.new do |s|
   s.summary = s.description
 
   s.email = "dominikh@fork-bomb.org"
-  s.has_rdoc = "yard"
   s.files = Dir.glob("{lib,spec}/**/*.rb") + ["LICENSE", "README.md"]
   s.homepage = "https://github.com/dominikh/filesize"
-  s.required_ruby_version = ">= 1.8.6"
+  s.required_ruby_version = ">= 2.6"
 
   s.add_development_dependency "rspec", "~> 3.0"
 end
